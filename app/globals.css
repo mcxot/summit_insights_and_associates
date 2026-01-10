@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@import "tw-animate-css";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    @apply antialiased;
+    background-color: #FAF9F6;
+    color: #000000;
+    font-family: var(--font-geist-sans);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+    color: #000000;
+  }
+}
+
+@layer components {
+  /* Custom Button Styles */
+  .btn-primary {
+    @apply px-6 py-3 rounded-lg font-semibold 
+           transition-all duration-300 
+           shadow-lg hover:shadow-xl hover:scale-105
+           flex items-center gap-2;
+    background-color: #1E3A56;
+    color: #FFFFFF;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4C6F88;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 rounded-lg font-semibold 
+           transition-all duration-300 
+           shadow-lg hover:shadow-xl;
+    background-color: #4C6F88;
+    color: #FFFFFF;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #1E3A56;
+  }
+  
+  /* Custom Card Styles */
+  .card {
+    @apply backdrop-blur-md rounded-xl p-6 shadow-xl
+           hover:shadow-2xl hover:-translate-y-1
+           transition-all duration-300;
+    background-color: #FFFFFF;
+    border: 1px solid #DEDDD9;
+  }
+  
+  .card-glass {
+    @apply backdrop-blur-sm rounded-xl p-8 shadow-2xl
+           hover:shadow-2xl transition-all duration-300;
+    background-color: #FFFFFF;
+    border: 1px solid #E4E3DF;
+    color: #000000;
+  }
+  
+  /* Custom Input Styles */
+  .input-custom {
+    @apply w-full px-4 py-3 rounded-lg 
+           focus:outline-none focus:ring-2
+           transition-all duration-300;
+    background-color: #FFFFFF;
+    border: 1px solid #DEDDD9;
+    color: #000000;
+  }
+  
+  .input-custom::placeholder {
+    color: #5A5A5A;
+  }
+  
+  .input-custom:focus {
+    border-color: #1E3A56;
+    --tw-ring-color: #1E3A56;
+  }
+  
+  .textarea-custom {
+    @apply w-full px-4 py-3 rounded-lg 
+           focus:outline-none focus:ring-2
+           transition-all duration-300 resize-none;
+    background-color: #FFFFFF;
+    border: 1px solid #DEDDD9;
+    color: #000000;
+  }
+  
+  .textarea-custom::placeholder {
+    color: #5A5A5A;
+  }
+  
+  .textarea-custom:focus {
+    border-color: #1E3A56;
+    --tw-ring-color: #1E3A56;
+  }
+  
+  /* Custom Badge Styles */
+  .badge {
+    @apply inline-block px-4 py-2 rounded-full 
+           hover:shadow-lg
+           transition-all duration-300 hover:scale-105 font-medium;
+    background-color: #C4B37E;
+    color: #000000;
+    border: 1px solid #C4B37E;
+  }
+  
+  .badge:hover {
+    background-color: #1E3A56;
+    color: #FFFFFF;
+    border-color: #1E3A56;
+  }
+  
+  /* Section Divider */
+  .section-divider {
+    @apply w-24 h-1 rounded-full;
+    background-color: #C4B37E;
+  }
+}
