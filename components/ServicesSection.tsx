@@ -13,7 +13,7 @@ const services = [
   {
     icon: ClipboardList,
     title: 'Survey Design & Data Collection',
-    description: 'Questionnaire ,Interview guides, Fieldwork coordination, and Accurate primary data',
+    description: 'Questionnaire, interview guides, fieldwork coordination, and accurate primary data.',
   },
   {
     icon: BarChart3,
@@ -28,7 +28,7 @@ const services = [
   {
     icon: GraduationCap,
     title: 'Training & Capacity Building',
-    description: 'Practical, hands-on training in research methods, data collection tools, analysis software (SPSS, Stata, Excel), report writing and article publication',
+    description: 'Practical, hands-on training in research methods, data collection tools, analysis software (SPSS, Stata, Excel), report writing, and article publication.',
   },
   {
     icon: BookOpen,
@@ -64,7 +64,7 @@ export default function ServicesSection() {
             </h2>
             <div className="section-divider mx-auto mb-6"></div>
             <p className="text-xl text-white max-w-2xl mx-auto drop-shadow-md" style={{ opacity: 0.95 }}>
-              We offer a complete suite of research, consulting, and training services
+              We offer a complete suite of research, consulting, and training services.
             </p>
           </div>
         </FadeInSection>
