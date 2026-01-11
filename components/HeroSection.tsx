@@ -54,9 +54,9 @@ export default function HeroSection() {
           </p>
 
           <p className="text-lg sm:text-xl text-white max-w-3xl mx-auto mb-12 leading-relaxed font-medium drop-shadow-md" style={{ opacity: 0.95 }}>
-            We provide high-quality research,analysis, and capacity-building solutions that help organisations, businesses, and 
+            We provide high-quality research, analysis, and capacity-building solutions that help organisations, businesses, and 
             individuals make informed, evidence-based decisions.
-         </p>
+          </p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}

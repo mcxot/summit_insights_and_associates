@@ -42,7 +42,7 @@ export default function HowWeWorkSection() {
             </h2>
             <div className="section-divider mx-auto mb-6"></div>
             <p className="text-xl max-w-2xl mx-auto" style={{ color: '#2B2B2B' }}>
-              Our work is guided by three key principles
+              Our work is guided by three key principles.
             </p>
           </div>
         </FadeInSection>

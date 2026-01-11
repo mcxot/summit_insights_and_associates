@@ -100,7 +100,7 @@ export default function ContactSection() {
             </h2>
             <div className="section-divider mx-auto mb-6"></div>
             <p className="text-xl max-w-2xl mx-auto" style={{ color: '#2B2B2B' }}>
-              Contact us to discuss your research or training needs and explore how we can work together for impact
+              Contact us to discuss your research or training needs and explore how we can work together for impact.
             </p>
           </div>
         </FadeInSection>
@@ -111,7 +111,7 @@ export default function ContactSection() {
             <FadeInSection delay={0.2} direction="left">
               <div className="card">
                 <h3 className="text-2xl font-bold mb-6" style={{ color: '#1E3A56' }}>Contact Information</h3>
-                <p className="mb-6" style={{ color: '#5A5A5A' }}>Reach out to us directly</p>
+                <p className="mb-6" style={{ color: '#5A5A5A' }}>Reach out to us directly.</p>
                 
                 <motion.div 
                   className="flex items-start gap-4 mb-6"
@@ -176,7 +176,7 @@ export default function ContactSection() {
               <div className="card-glass">
                 <h3 className="text-3xl font-bold mb-2" style={{ color: '#1E3A56' }}>Send Us a Message</h3>
                 <p className="mb-8" style={{ color: '#5A5A5A' }}>
-                  Fill out the form below and we&apos;ll get back to you as soon as possible
+                  Fill out the form below and we&apos;ll get back to you as soon as possible.
                 </p>
 
                 <form onSubmit={handleSubmit} className="space-y-6">

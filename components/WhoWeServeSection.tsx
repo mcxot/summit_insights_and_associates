@@ -31,7 +31,7 @@ export default function WhoWeServeSection() {
             </h2>
             <div className="section-divider mx-auto mb-6"></div>
             <p className="text-xl text-white max-w-2xl mx-auto drop-shadow-md" style={{ opacity: 0.95 }}>
-              We support a diverse range of clients across sectors
+              We support a diverse range of clients across sectors.
             </p>
           </div>
         </FadeInSection>
