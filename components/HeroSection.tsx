@@ -45,15 +45,15 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 drop-shadow-2xl">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 drop-shadow-2xl">
             SUMMIT INSIGHTS & ASSOCIATES
           </h1>
 
-          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 sm:mb-8 tracking-wide drop-shadow-lg" style={{ color: '#C4B37E' }}>
+          <p className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-8 tracking-wide drop-shadow-lg" style={{ color: '#C4B37E' }}>
             Insight. Evidence. Impact.
           </p>
 
-          <p className="text-base sm:text-lg md:text-xl text-white max-w-3xl mx-auto mb-8 sm:mb-12 leading-relaxed font-medium drop-shadow-md" style={{ opacity: 0.95 }}>
+          <p className="text-lg sm:text-xl text-white max-w-3xl mx-auto mb-12 leading-relaxed font-medium drop-shadow-md" style={{ opacity: 0.95 }}>
             We provide high-quality research, analysis, and capacity-building solutions that help organisations, businesses, and 
             individuals make informed, evidence-based decisions.
           </p>
@@ -65,9 +65,9 @@ export default function HeroSection() {
             className="flex justify-center"
           >
             <Link href="/contact">
-              <button className="btn-primary text-base sm:text-lg px-8 sm:px-10 py-3 sm:py-4">
+              <button className="btn-primary text-lg px-10 py-4">
                 Get Started
-                <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
+                <ArrowRight className="h-5 w-5" />
               </button>
             </Link>
           </motion.div>
