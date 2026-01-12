@@ -13,15 +13,13 @@ export default function Footer() {
           {/* Company Info */}
           <div className="flex flex-col items-center md:items-start">
             <Link href="/" className="mb-4 hover:opacity-80 transition-opacity">
-              <div className="bg-white/90 rounded-lg px-3 py-1.5">
-                <Image
-                  src="/LOGO FINALISED.png"
-                  alt="Summit Insights & Associates"
-                  width={240}
-                  height={40}
-                  className="h-10 w-auto"
-                />
-              </div>
+              <Image
+                src="/LOGO FINALISED.png"
+                alt="Summit Insights & Associates"
+                width={240}
+                height={40}
+                className="h-10 w-auto"
+              />
             </Link>
           </div>
 

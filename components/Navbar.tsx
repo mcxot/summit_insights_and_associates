@@ -40,16 +40,14 @@ export default function Navbar() {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="hover:opacity-90 transition-all">
-            <div className="bg-white/90 rounded-lg px-3 py-1.5">
-              <Image
-                src="/LOGO FINALISED.png"
-                alt="Summit Insights & Associates"
-                width={300}
-                height={50}
-                className="h-12 w-auto"
-                priority
-              />
-            </div>
+            <Image
+              src="/LOGO FINALISED.png"
+              alt="Summit Insights & Associates"
+              width={300}
+              height={50}
+              className="h-12 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
