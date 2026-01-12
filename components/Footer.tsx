@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -13,12 +12,10 @@ export default function Footer() {
           {/* Company Info */}
           <div className="flex flex-col items-center md:items-start">
             <Link href="/" className="mb-4 hover:opacity-80 transition-opacity">
-              <Image
-                src="/LOGO FINALISED.png"
+              <img
+                src="/logo.svg"
                 alt="Summit Insights & Associates"
-                width={240}
-                height={40}
-                className="h-10 w-auto"
+                className="h-12 w-auto"
               />
             </Link>
           </div>

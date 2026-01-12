@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -40,13 +39,10 @@ export default function Navbar() {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="hover:opacity-90 transition-all">
-            <Image
-              src="/LOGO FINALISED.png"
+            <img
+              src="/logo.svg"
               alt="Summit Insights & Associates"
-              width={300}
-              height={50}
-              className="h-12 w-auto"
-              priority
+              className="h-14 w-auto"
             />
           </Link>
 
